@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2F2F2;
+}
+
+header{
+
+    width: 100%;
+    margin-top: 25px;
+}
+ 
+h1{
+    margin-top: 83px;
+    margin-left: 25px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 53px;
+color: #1F1534;
+}
+
+h2{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+margin-top: 63px;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+h3{
+    margin-top: 101px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+p{
+    width: 695px;
+
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 32px;
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+#imgcar1{
+    width: 550.46px;
+    height: 475px;
+    margin-top: 14px;
+    left: 25px;
+
+}
+
+.button-position button{
+width: 200px;
+height: 56px;
+top: 1002px;
+left: 25px;
+background: #458FF6;
+border-radius: 55px;
+font-weight: 700,bold;
+font-style: normal;
+font-size: 18px;
+line-height: 60px;
+color: #ffffff;
+margin-top: 23px;
+
+
+}
+
+#learn-more{
+  
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    left: 25px;
+    right: 85.94%;
+    top: 2183px;
+    bottom: 25.37%;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+     mix-blend-mode: normal;
+     
+}
+
+
+
+
+#wrapper{
+
+    margin: 0px 25px;
+}
+
+#logo{
+    background-image: url("./images/car-solid.svg");
+    width: 41px;
+    height: 41px;
+    display: block;
+    background-repeat: no-repeat;
+
+}
+
+#logo>span{
+    
+position: absolute;
+left: 4.88%;
+right: 88.44%;
+top: 1.03%;
+bottom: 97.97%;
+margin-top: 25px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #233348;
+
+mix-blend-mode: normal;
+
+
+}
+
+
+nav{
+     margin-top: 30px;
+     float: left;
+     margin-left: 0px;
+
+}
+
+nav>a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    text-decoration: none;
+    opacity:0.5;
+}
+
+.flex-start { 
+    justify-content: flex-start; 
+  }
+.flex-container {
+    margin-left: 25px;
+    margin: 35px;
+    list-style: none;
+    display: flex;
+  }
+.flex-item {
+    padding: 5px;
+    
+    
+    margin: 5px;
+    
+    
+  }
+
+.nav1{
+    margin-top: 35px;
+    margin-left: 25px;
+
+}
+.container{
+display: grid;
+gap: 37px 34px;
+margin-top: 100px;
+flex-wrap: wrap;
+grid-template-columns: auto auto auto  ;
+float: left;
+}
+
+.container >div{
+
+width: 350px;
+height: 354px;
+top: 1405px;
+left: 25px;
+font-size: 36px;
+background-color: #FFFFFF;
+border-radius: 20px;
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+
+}
+
+.img-vector{
+    width: 92px;
+    height: 92px;
+    margin-left: 40px;
+    float: left;
+    margin-top: 55px;
+    
+    
+}
+
+
+
+
+
+
+
+
+.container ul{
+padding: Opx;
+margin: Opx;
+}
+.container ul li{
+list-style: none;
+float: left;
+width: 350px;
+height: 354px;
+background: #ffffff;
+margin: 40px 40px 8px 55px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#testi-start{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    width: 1120px;
+    height: 470px;
+    top: 270px;
+    left: 25px;
+    margin-top: 20px;
+}
+
+h4{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-top: 22px;
+    margin-left: 40px;
+    float:left;
+    color: #000000;
+    
+    mix-blend-mode: normal;
+}
+
+
+
+.container >.container-position >p{
+
+    margin-top: 1px;
+    float: left;
+    text-align: left;
+width: 266px;
+height: 84px;
+margin-left: 40px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+#newarrivals{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    left: 445.36px;
+    top: 1571.41px;
+    width: 196px;
+    float:left;
+    height: 56px;
+    color: #000000;
+    
+    mix-blend-mode: normal;
+}
+
+
+#track{
+      
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    left: 833.36px;
+    top: 1571.41px;
+    width: 196px;
+    float:left;
+    height: 56px;
+    color: #000000;
+    
+    mix-blend-mode: normal;
+}
+
+
+#info{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    left: 64px;
+    top: 1962.41px;
+    width: 196px;
+    float:left;
+    height: 56px;
+    color: #000000;
+    
+    mix-blend-mode: normal;
+}
+
+#onlinestore{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    left: 447px;
+    top: 1962.41px;
+    width: 196px;
+    float:left;
+    height: 56px;
+    color: #000000;
+    
+    mix-blend-mode: normal;
+}
+
+
+
+#stock{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    left: 833.36px;
+    top: 1962.41px;
+    width: 196px;
+    float:left;
+    height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+
+
+footer{
+
+    position: absolute;
+    width: 1599.02px;
+    height: 425px;
+    left: 0.99px;
+    top: 2575px;
+    
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+
+
+}
+
+
+
+
+#copyright{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 390.76px;
+    height: 27.55px;
+    color: #FFFFFF;
+    margin-top: 347.2px;
+    left: 26px;
+    mix-blend-mode: normal;
+
+}
+
+
+#low-car-store-logo{
+   
+    position: absolute;
+    margin-top: 180px;
+   margin-left: 27px;
+    
+    
+    right: 88.32%;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: white;
+    
+    mix-blend-mode: normal;
+
+
+}
+
+#logo2{
+    background-image: url("./images/car-solid.svg");
+    width: 41px;
+    height: 41px;
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+   margin-top: 177px;
+   margin-left: 27px;
+}
+
+
+
+.social-list{
+margin-left: 25px;
+top: 2625px;
+width: 500px;
+height: 59px;
+
+}
+
+
+#facebook{
+margin-top: 50px;
+margin-left: 25px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 60px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+
+#instagram{
+    margin-top: 50px;
+    margin-left: 5px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
+#twitter{
+    margin-top: 50px;
+    margin-left: 5px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
+#testi-says{
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 48px;
+    width: 522px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
+
+#testi-start-paragraph{
+    float: left;
+    margin-top: 22px;
+    margin-left: 25px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+     line-height: 30px;
+     color: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+}
+
+
+#mangmentphoto{
+
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 50px;
+    top: 430px;
+}
+
+#avi-aviv{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    float: left;
+    color: #FFFFFF;
+   margin-top: 280px;
+   margin-left: -690px;
+    mix-blend-mode: normal;
+
+}
+
+
+#founder{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 48px;
+color: rgba(255, 255, 255, 0.85);
+mix-blend-mode: normal;
+float: left;
+margin-top: 300px;
+margin-left: -690px;
+
+
+}
+
+
+#checkout{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-top: 70px;
+    margin-left: 25px;
+
+    
+}
+
+
+.con{
+    display: grid;
+    gap: 37px 34px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto  ;
+    float: left;
+    }
+
+
+    .con >.con-position >p{
+
+        margin-top: 1px;
+        float: left;
+        text-align: left;
+    width: 300px;
+    height: 512px;
+    margin-left: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    
+    
+    color: #7D7987;
+    
+    mix-blend-mode: normal;
+    }
+    .vector{
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+        float: left;
+        margin-top: 5px;
+    }
+
+    #turbo{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+         line-height: 32px;
+         color: #000000;
+         mix-blend-mode: normal;
+         width: 251px;
+         height: 64px;
+         margin-left: 120px;
+    }
+
+    #intake{
+
+       margin-left: 120px;
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+         line-height: 32px;
+         color: #000000;
+         mix-blend-mode: normal;
+         width: 251px;
+         height: 64px;
+    }
+
+
+    #wheel{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+         line-height: 32px;
+         color: #000000;
+         mix-blend-mode: normal;
+         width: 251px;
+         height: 64px;
+         margin-left: 120px;
+
+
+
+
+
+    }
+
+    .con >div{
+
+        width: 350px;
+        height: 512px;
+        top: 928px;
+        left: 25px;
+        font-size: 36px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);}
+
+
+
+#read1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: -400px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+}
+
+#read2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: -400px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+}
+
+#read3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: -400px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+}
+
+
+
+#learn-more-button{
+  
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    left: 25px;
+    right: 85.94%;
+    top: 1478px;
+    bottom: 25.37%;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+     mix-blend-mode: normal;
+     
+}
+
+
+#testifooter{
+
+    position: absolute;
+width: 1599.02px;
+height: 425px;
+left: 1px;
+top: 1575px;
+
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
